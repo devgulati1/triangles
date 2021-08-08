@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="triangleQuiz.css">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+
+
+    <nav>
+        <a href="index.html">Is This A traingle</a>
+        <a href="calculateHyp.html">Is This A traingle</a>
+        <a href="triangleQuiz.html">Traingle Quiz</a>
+        <a href="AreaOfTriangle.html">Area Of Triangle</a>
+    </nav>
+
+    <h1>Traingle Quiz</h1>
+    <form class="quiz-form">
+        <p>What do you call a triangle whose sides are all equal?</p>
+     <label><input value="equilateral" type="radio" name="ques1">Equilateral</label>
+     <label><input  value="isosceles" type="radio" name="ques1">   Isosceles</label>
+     <label><input value="scalene" type="radio" name="ques1">  Scalene</label>
+    
+     <p>If a Triangle has angle of 90 degree what is it called?</p>
+     <label><input  value="rightangle" type="radio" name="ques2">Right Angle</label>
+     <label><input value="obtuse" type="radio" name="ques2">  Obtuse</label>
+     <label><input value="acute" type="radio" name="ques2">  Acute</label>
+
+    </form>
+    <br>
+    <button id="submit-ans-btn">Submit Ans</button>
+    <div id=output></div>
+    <script src="triangleQuiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+    color: black;
+   background-color:  #64C9CF;
+   text-align: center;
+}
+nav >a{
+    margin: 10px;
+     color: #002366;
+    text-decoration: none;
+}
