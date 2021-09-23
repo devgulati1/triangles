@@ -2,7 +2,7 @@ let form=document.querySelector(".quiz-form")
 let output=document.querySelector("#output");
 let button=document.querySelector("#submit-ans-btn")
 
-let ansArr=["equilateral","rightangle"];
+let ansArr=["equilateral","rightangle","onerightangle","180","pythagoras"];
 
 
 let calcScore=()=>{
